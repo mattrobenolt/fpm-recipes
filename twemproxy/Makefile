@@ -1,11 +1,11 @@
 NAME = twemproxy
-VERSION = 0.3.0
-ITERATION = disqus-1
-DOWNLOAD_VERSION = 0d3084be2c4d3d8cb64cb6199db3413d2cbcda42
-SOURCE_URL = https://github.com/twitter/twemproxy/archive/$(DOWNLOAD_VERSION).tar.gz
+VERSION = 0.4.1
+ITERATION = 1
+DOWNLOAD_VERSION = 49a96c4884332524d78eab8774f0229aa4398431
+SOURCE_URL = https://github.com/mattrobenolt/twemproxy/archive/$(DOWNLOAD_VERSION).tar.gz
 FPM_SOURCE = dir
 
-PACKAGE_URL = https://github.com/twitter/twemproxy
+PACKAGE_URL = https://github.com/mattrobenolt/twemproxy
 PACKAGE_DESCRIPTION = A fast, light-weight proxy for memcached and redis
 
 include ../include/base.mk
